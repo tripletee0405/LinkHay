@@ -2,12 +2,11 @@ package tests;
 
 import core.BaseTest;
 import core.ExcelUtils;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 
-public class CreateNewCustomer extends BaseTest {
+public class Login extends BaseTest {
     @Test(dataProvider = "test-data")
     public void testCreateNewCustomer(String EmailOrPhoneNumber){
 
